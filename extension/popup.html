@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body { font: 13px system-ui, sans-serif; width: 260px; margin: 12px; }
+  label { display: flex; justify-content: space-between; margin: 6px 0; }
+  input, select { width: 110px; }
+  button { margin-top: 8px; padding: 6px 12px; }
+  #stats { margin-top: 10px; font-family: monospace; white-space: pre; }
+</style>
+<label>Preset
+  <select id="preset">
+    <option value="1024,6,2">Low-end phone</option>
+    <option value="2048,4,4" selected>Mid-range phone</option>
+    <option value="4096,2,4">Budget laptop</option>
+  </select>
+</label>
+<label>RAM cap (MB) <input id="memMB" type="number" min="256" step="256"></label>
+<label>CPU slowdown (x) <input id="cpuRate" type="number" min="1" step="1"></label>
+<label>CPU cores <input id="cores" type="number" min="1" max="16"></label>
+<button id="launch">Open this page</button>
+<button id="stop">Stop</button>
+<div id="stats"></div>
+<script src="popup.js"></script>

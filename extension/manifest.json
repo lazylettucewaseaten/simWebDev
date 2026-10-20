@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "SimWeb - low-end device simulator",
+  "version": "1.0",
+  "description": "Open the current page in a separate Chrome with capped RAM and throttled CPU.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsGhZaI9fNeeImkLjB40Czz7cUHxC5wV8An8cE2kkJ3QYRU4mNVZgvnRaVUxbJMyxDErG9j1vNH2ZwSKhCdpyYyrxpmgFTCG+7XezwQgSsdETnptfNBkdxsdTR0/pcb1SHi8JziEHfcLRlyi9+cwM9QPfttXCYpE97fLRuz8/GOaL+PIdfILIEA0sDObhsuFnGaT5x2SEPGqxjNOUCKl8PXxbXS1roadOroT/bnANeObmUc8n5qlVYGJbCduRD/PI5m7HhbzWjBc2PId2eo26mk8EzN4uLLnzjL78o1nMwLs1NdFODcNo0JAcxYGrEFGrl0W/UaWGfqwehqfXfA014wIDAQAB",
+  "permissions": ["nativeMessaging", "activeTab"],
+  "action": { "default_popup": "popup.html" }
+}
